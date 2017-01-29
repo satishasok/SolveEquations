@@ -1,0 +1,14 @@
+Solve Equation:
+
+Example:
+offset = 4 + random + 1
+location = 1 + origin + offset
+origin = 3 + 5
+random = 2
+
+Expected output:
+location = 16
+offset = 7
+origin = 8
+random = 2
+

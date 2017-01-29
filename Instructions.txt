@@ -1,0 +1,20 @@
+This folder includes the source file and sample Input file.
+
+How To Build:
+* Extract the zip file
+* call > make clean
+* call > make all
+* Run commands:
+> ./SolveEquations Input1.txt
+
+Output should look like this:
+location = 16
+offset = 7
+origin = 8
+random = 2
+
+> ./SolveEquations Input2.txt
+> ./SolveEquations Input3.txt
+
+
+

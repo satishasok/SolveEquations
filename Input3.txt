@@ -1,0 +1,7 @@
+offset = 4 + random + 1 + newVar + abc
+location = abc + 1 + origin + offset
+zyx = 10 + origin + abc
+origin = 3 + abc + 5
+random = 2
+abc = 7
+newVar = 10
