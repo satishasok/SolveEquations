@@ -27,5 +27,5 @@ Output should look like this:
 <br>origin = 8
 <br>random = 2
 
-> ./SolveEquations Input2.txt
-<br>> ./SolveEquations Input3.txt
+<br> > ./SolveEquations Input2.txt
+<br> <br> > ./SolveEquations Input3.txt
