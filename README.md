@@ -2,16 +2,16 @@
 Takes in an input of linear algebraic equations and solves them.
 
 Example Input:
-offset = 4 + random + 1
-location = 1 + origin + offset
-origin = 3 + 5
-random = 2
+<br>offset = 4 + random + 1
+<br>location = 1 + origin + offset
+<br>origin = 3 + 5
+<br>random = 2
 
 Expected output: (sorted by the LHS variable name)
-location = 16
-offset = 7
-origin = 8
-random = 2
+<br>location = 16
+<br>offset = 7
+<br>origin = 8
+<br>random = 2
 
 How To Build:
 * clone the repo
@@ -22,10 +22,10 @@ How To Build:
 > ./SolveEquations Input1.txt
 
 Output should look like this:
-location = 16
-offset = 7
-origin = 8
-random = 2
+<br>location = 16
+<br>offset = 7
+<br>origin = 8
+<br>random = 2
 
 > ./SolveEquations Input2.txt
-> ./SolveEquations Input3.txt
+<br>> ./SolveEquations Input3.txt
