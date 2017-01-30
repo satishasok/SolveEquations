@@ -1,5 +1,13 @@
+// Input.cpp
+// Handles the input file
+// takes in file or std::in as a stream
+// parses the file
+// creates a vector of Equations object.
+
 #include <sstream>
 #include <algorithm>
+#include <iostream>
+#include <ostream>
 
 #include "Input.h"
 
@@ -29,6 +37,8 @@ std::vector<std::string> tokenizeString(std::string input, std::string delimiter
 	return tokens;
 }
 
+// Parses Equations from the input file, and create a vector.
+// If it is already solved then it adds them to the solvedEquations map.
 void readEquations(std::istream& in, std::vector<Equation>& equations, std::map<std::string, int>& solvedEquations)
 {
         std::string line;
@@ -59,6 +69,8 @@ void readEquations(std::istream& in, std::vector<Equation>& equations, std::map<
 				}
 				equations.push_back(equation);				
 			}
+		} else {
+			std::cerr << "Incoming Equation: \"" << line << "\"  is not valid. No RHS entry. Continue parsing next equation" << std::endl;
 		}
 		
 	}

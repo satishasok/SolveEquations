@@ -1,3 +1,9 @@
+// SolveEquations.cpp
+// Main file of the project
+// Has the main method.
+// Uses loads the input file
+// Solves the equations
+// Prints the output.
 #include <fstream>
 #include <iostream>
 #include <iterator>
