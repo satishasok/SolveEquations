@@ -5,7 +5,7 @@
 // The Maps sorted by key automatically. In this case the key is LHS variable name.
 void SolveEquations(std::vector<Equation>& equations, std::map<std::string, int>& solvedEquations)
 {
-	bool isAllEquationsSolved = false;
+	bool isAllEquationsSolved = (equations.size() == solvedEquations.size());
 	int currentNumberOfSolvedEquations = solvedEquations.size();
 	int previousNumberOfSolvedEquations = currentNumberOfSolvedEquations;
         while (!isAllEquationsSolved) {
